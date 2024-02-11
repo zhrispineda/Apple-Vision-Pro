@@ -15,6 +15,7 @@
 		83920F5C2B7834C000D5700B /* ConnectedDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F5B2B7834C000D5700B /* ConnectedDeviceView.swift */; };
 		83920F5E2B783AA100D5700B /* EnvironmentsControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F5D2B783AA100D5700B /* EnvironmentsControlView.swift */; };
 		83920F602B78414000D5700B /* VolumeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F5F2B78414000D5700B /* VolumeControlView.swift */; };
+		83920F642B7848BE00D5700B /* Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 83920F632B7848BE00D5700B /* Preview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		83920F5D2B783AA100D5700B /* EnvironmentsControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentsControlView.swift; sourceTree = "<group>"; };
 		83920F5F2B78414000D5700B /* VolumeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlView.swift; sourceTree = "<group>"; };
 		83920F612B7846CA00D5700B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83920F632B7848BE00D5700B /* Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		83815CFC2B7735A400F53A0F = {
 			isa = PBXGroup;
 			children = (
+				83920F622B7848AD00D5700B /* Assets */,
 				83920F612B7846CA00D5700B /* README.md */,
 				83815D072B7735A400F53A0F /* Apple Vision Pro */,
 				83815D062B7735A400F53A0F /* Products */,
@@ -79,6 +82,14 @@
 				83815D0F2B7735A600F53A0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83920F622B7848AD00D5700B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83920F632B7848BE00D5700B /* Preview.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				83815D102B7735A600F53A0F /* Preview Assets.xcassets in Resources */,
 				83815D0D2B7735A600F53A0F /* Assets.xcassets in Resources */,
+				83920F642B7848BE00D5700B /* Preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

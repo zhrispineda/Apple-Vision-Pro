@@ -63,7 +63,7 @@ struct ContentView: View {
                         ConnectedDeviceView()
                             .padding(.horizontal)
                     }
-                    .frame(width: 250)
+                    .frame(width: 250, height: 265)
                     .clipShape(RoundedRectangle(cornerRadius: 15.0))
                     VStack(alignment: .leading, spacing: 15) {
                         ZStack {
