@@ -11,6 +11,10 @@
 		83815D0B2B7735A400F53A0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83815D0A2B7735A400F53A0F /* ContentView.swift */; };
 		83815D0D2B7735A600F53A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83815D0C2B7735A600F53A0F /* Assets.xcassets */; };
 		83815D102B7735A600F53A0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83815D0F2B7735A600F53A0F /* Preview Assets.xcassets */; };
+		83920F5A2B78313B00D5700B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F592B78313B00D5700B /* VideoPlayerView.swift */; };
+		83920F5C2B7834C000D5700B /* ConnectedDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F5B2B7834C000D5700B /* ConnectedDeviceView.swift */; };
+		83920F5E2B783AA100D5700B /* EnvironmentsControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F5D2B783AA100D5700B /* EnvironmentsControlView.swift */; };
+		83920F602B78414000D5700B /* VolumeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83920F5F2B78414000D5700B /* VolumeControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		83815D0A2B7735A400F53A0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83815D0C2B7735A600F53A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83815D0F2B7735A600F53A0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83920F592B78313B00D5700B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		83920F5B2B7834C000D5700B /* ConnectedDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDeviceView.swift; sourceTree = "<group>"; };
+		83920F5D2B783AA100D5700B /* EnvironmentsControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentsControlView.swift; sourceTree = "<group>"; };
+		83920F5F2B78414000D5700B /* VolumeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlView.swift; sourceTree = "<group>"; };
+		83920F612B7846CA00D5700B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 		83815CFC2B7735A400F53A0F = {
 			isa = PBXGroup;
 			children = (
+				83920F612B7846CA00D5700B /* README.md */,
 				83815D072B7735A400F53A0F /* Apple Vision Pro */,
 				83815D062B7735A400F53A0F /* Products */,
 			);
@@ -55,6 +65,10 @@
 				83815D0A2B7735A400F53A0F /* ContentView.swift */,
 				83815D0C2B7735A600F53A0F /* Assets.xcassets */,
 				83815D0E2B7735A600F53A0F /* Preview Content */,
+				83920F592B78313B00D5700B /* VideoPlayerView.swift */,
+				83920F5B2B7834C000D5700B /* ConnectedDeviceView.swift */,
+				83920F5D2B783AA100D5700B /* EnvironmentsControlView.swift */,
+				83920F5F2B78414000D5700B /* VolumeControlView.swift */,
 			);
 			path = "Apple Vision Pro";
 			sourceTree = "<group>";
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83920F602B78414000D5700B /* VolumeControlView.swift in Sources */,
 				83815D0B2B7735A400F53A0F /* ContentView.swift in Sources */,
+				83920F5E2B783AA100D5700B /* EnvironmentsControlView.swift in Sources */,
 				83815D092B7735A400F53A0F /* Apple_Vision_ProApp.swift in Sources */,
+				83920F5C2B7834C000D5700B /* ConnectedDeviceView.swift in Sources */,
+				83920F5A2B78313B00D5700B /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +295,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +304,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Vision-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -305,8 +327,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +336,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Vision-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
